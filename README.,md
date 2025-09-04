@@ -61,3 +61,17 @@ Hour Glass Pattern
  *    *  
 *      * 
 *********
+
+Enter the string to geneate the pattern: zoho
+z z z
+ ooo 
+zo.ho
+ hhh 
+o o o
+
+Enter the string to geneate the pattern: hello
+h h h
+ eee 
+hello
+ lll 
+o o o
