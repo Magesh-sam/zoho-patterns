@@ -37,6 +37,29 @@ public class Main {
 2 5 9 14 
 1 3 6 10 15 
 ```
+solution
+```java
+public class RIghtAngleTriangleWithNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the n to generate pattern: ");
+        int n = sc.nextInt();
+        sc.close();
+
+        for (int line = n - 1; line >= 0; line--) {
+            int elementsInLine = n - line;
+            for (int k = 0; k < elementsInLine; k++) {
+                int diagNum = line + k;
+                int startVal = (diagNum * (diagNum + 1)) / 2 + 1;
+                int value = startVal + k;   
+                System.out.print(value + " ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+```
 
 Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
 
