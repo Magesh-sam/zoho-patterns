@@ -4,6 +4,30 @@ Enter n to generate pattern: 5
         3  7 10
      4  8 11 13
   5  9 12 14 15
+solution:
+```java
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     int n=5;
+     for(int i=1;i<=n;i++){
+       for(int j=1;j<=n-i;j++){
+         System.out.print("    ");
+       }
+       int num=i;
+       int diff = n-1;
+       for(int j=1;j<=i;j++){
+         System.out.printf("%4d",num);
+         num+=diff;
+         diff--;
+       }
+       System.out.println();
+     }
+  }
+}
+
+```
 
 11 
 7 12 
