@@ -1,9 +1,11 @@
 Enter n to generate pattern: 5
+```
               1
            2  6
         3  7 10
      4  8 11 13
   5  9 12 14 15
+```
 solution:
 ```java
 import java.util.*;
@@ -28,13 +30,13 @@ public class Main {
 }
 
 ```
-
+```
 11 
 7 12 
 4 8 13 
 2 5 9 14 
 1 3 6 10 15 
-
+```
 
 Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
 
@@ -51,7 +53,7 @@ Write a Java program to print the following number pattern
 		Test Data        
 		Input number of rows:  7
 		Expected Output :
-
+```
 		1 2 3 4 5 6 7
 		1 2 3 4 5 6
 		1 2 3 4 5
@@ -65,8 +67,10 @@ Write a Java program to print the following number pattern
 		1 2 3 4 5
 		1 2 3 4 5 6
 		1 2 3 4 5 6 7
+```
 		
 Diamond pattern of stars:
+```
    *
   ***
  *****
@@ -74,16 +78,19 @@ Diamond pattern of stars:
  *****
   ***
    *
-
+```
 
 Pyramid pattern of numbers:
+```
     1
    121
   12321
  1234321
 123454321
+```
 
 Hour Glass Pattern
+```
 *********
  *    *  
   *  *   
@@ -93,20 +100,25 @@ Hour Glass Pattern
  *    *  
 *      * 
 *********
+```
 
 Enter the string to geneate the pattern: zoho
+```
 z z z
  ooo 
 zo.ho
  hhh 
 o o o
+```
 
 Enter the string to geneate the pattern: hello
+```
 h h h
  eee 
 hello
  lll 
 o o o
+```
 
 
 
