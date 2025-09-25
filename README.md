@@ -42,21 +42,19 @@ solution
 ```java
 public class RIghtAngleTriangleWithNumbers {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the n to generate pattern: ");
-        int n = sc.nextInt();
-        sc.close();
-
-        for (int line = n - 1; line >= 0; line--) {
-            int elementsInLine = n - line;
-            for (int k = 0; k < elementsInLine; k++) {
-                int diagNum = line + k;
-                int startVal = (diagNum * (diagNum + 1)) / 2 + 1;
-                int value = startVal + k;   
-                System.out.print(value + " ");
-            }
-            System.out.println();
-        }
+       int n=5;
+       for(int line = n-1;line>=0;line--){
+         // no of elements to be printed in a line
+         int noOfEle = n - line;
+         for(int k=0;k<noOfEle;k++){
+           // upto n we sum using (n*(n+1))/2 formula and adding 1 and k to match the pattern
+           int upToSumNum = line + k;
+           int sum = (upToSumNum *(upToSumNum+1))/2+1;
+           int finalValue = sum + k;
+           System.out.printf("%-3d",finalValue);
+         }
+         System.out.println();
+       }
     }
 }
 
