@@ -62,6 +62,9 @@ public class RIghtAngleTriangleWithNumbers {
 
 ```
 
+Given a N by M matrix of numbers, print out the matrix in an  anit-clockwise spiral.
+![matrix printin](https://github.com/Magesh-sam/zoho-patterns/blob/main/matrixprinting.png)
+
 Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
 
 		For example, given the following matrix:
