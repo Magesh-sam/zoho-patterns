@@ -1,3 +1,4 @@
+## contributions are welcomed!!!
 Enter n to generate pattern: 5
 ```
               1
