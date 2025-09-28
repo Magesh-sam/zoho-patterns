@@ -1,6 +1,39 @@
 ## contributions are welcomed!!!
 Enter n to generate pattern: 5
 ```
+  1  2  3  4  5
+ 10  9  8  7  6
+ 11 12 13 14 15
+ 20 19 18 17 16
+ 21 22 23 24 25
+```
+Solution:
+```java
+public class Main {
+    public static void main(String[] args) {
+        int n = 5;
+        int num = 1;
+
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 1) {  
+                for (int j =1 ; j <= n; j++) {
+                    System.out.printf("%3d", num++);
+                }
+            } else {           
+                int start = num + n -1;
+                for(int j=1;j<=n;j++){
+                  System.out.printf("%3d", start--);
+                }
+                num+=n;
+            }
+            System.out.println();
+        }
+    }
+}
+
+```
+Enter n to generate pattern: 5
+```
 1 2 3 4 5 
 5 1 2 3 4 
 4 5 1 2 3 
