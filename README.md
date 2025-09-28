@@ -273,6 +273,41 @@ hello
  lll 
 o o o
 ```
+Solution:
+```java
+package problems;
 
+import java.util.Scanner;
 
+public class StringPattern {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the string to geneate the pattern: ");
+        String str = sc.nextLine();
+        sc.close();
+        int n = str.length();
+        if (n % 2 == 0) {
+            str = str.substring(0, n / 2) + "." + str.substring(n / 2);
+            n = str.length();
+        }
+        int mid = (n / 2);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == mid) {
+                    System.out.print(str.charAt(j));
+                } else if (i == j || j == (n - i) - 1 || j == mid) {
+                    System.out.print(str.charAt(i));
+                } else {
+                    System.out.print(" ");
+                }
+
+            }
+
+            System.out.println();
+
+        }
+    }
+}
+
+```
 
