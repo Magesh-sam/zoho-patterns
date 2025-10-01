@@ -257,7 +257,7 @@ Hour Glass Pattern
 *********
 ```
 
-Enter the string to geneate the pattern: zoho
+Enter the string to geneate the pattern: zoho **(IMPORTANT!!!)**
 ```
 z z z
  ooo 
