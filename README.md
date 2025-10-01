@@ -1,4 +1,5 @@
 ## contributions are welcomed!!!
+![patterns](https://github.com/Magesh-sam/zoho-patterns/blob/main/patterns.jpg)
 Enter n to generate pattern: 5
 ```
   1  2  3  4  5
